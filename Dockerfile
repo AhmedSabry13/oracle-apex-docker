@@ -22,7 +22,7 @@ COPY --chmod=777 apex_pass_input.txt /opt/oracle/apex_pass_input.txt
 RUN mkdir /opt/oracle/extention/
 
 COPY --chmod=777 apex.zip /opt/oracle/extention/apex.zip
-COPY --chmod=777 bip.zip /opt/oracle/extention/bip.zip
+#COPY --chmod=777 bip.zip /opt/oracle/extention/bip.zip
 COPY --chmod=777 jdk-21.tar.gz /opt/oracle/extention/jdk-21.tar.gz
 COPY --chmod=777 ords.zip /opt/oracle/extention/ords.zip
 COPY --chmod=777 tomcat.tar.gz /opt/oracle/extention/tomcat.tar.gz
